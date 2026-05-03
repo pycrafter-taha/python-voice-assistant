@@ -1,19 +1,17 @@
-# python-voice-assistant
-A Python voice assistant that listens and executes commands
-
-
 # Nova - Python Voice Assistant 🎙️
 
-Nova is a simple voice-controlled assistant built using Python. It listens for a wake word ("Nova") and executes commands like opening websites.
+Nova is a basic voice-controlled assistant built using Python. It listens for the wake word "Nova" and performs simple commands like opening websites.
 
 ---
 
 ## 🚀 Features
+- Wake word detection ("Nova")
 - Voice recognition using Google Speech API
 - Text-to-speech responses
-- Wake word activation ("Nova")
-- Opens websites like Google, Amazon, StackOverflow
-- Simple and beginner-friendly project
+- Opens websites:
+  - Google
+  - Amazon
+  - StackOverflow
 
 ---
 
@@ -40,26 +38,29 @@ Nova is a simple voice-controlled assistant built using Python. It listens for a
 
 ## ▶️ How to Run
 
-Run the program using:
+Run the program:
 
 python main.py
 
 ---
 
-## 🎯 Example Commands
+## 🎯 How It Works
 
-Say:
-- "Nova"
-- "Open Google"
-- "Open Amazon"
-- "Open StackOverflow"
-- "Exit"
+1. The program starts and says "Initializing Nova..."
+2. It listens continuously
+3. When you say **"Nova"**, it activates
+4. Then you can give a command like:
+   - "Open Google"
+   - "Open Amazon"
+   - "Open StackOverflow"
 
 ---
 
-## ⚠️ Requirements
-- Microphone
-- Internet connection (for speech recognition)
+## ⚠️ Limitations
+- No exit command (program runs continuously)
+- Limited commands
+- Requires internet for speech recognition
+- May not always recognize voice accurately
 
 ---
 
